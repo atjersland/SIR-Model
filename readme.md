@@ -45,14 +45,14 @@ Simulation of the SIR model written in C#. Writes per day outputs to CSV for eas
 ## Model Inputs
 | Input Parameter | Description | Default Value |
 | :--- | :--- | :--- |
-| 'days' | Number of days the simulation runs for. | 100 |
-| 'infectionRate' | Rate at which susceptible become infected. | 0.0 |
-| 'recoveryRate' | Rate at which infected people recover from the infection. | 0.0 |
-| 'resusceptibleRate' | Rate at which recovered people lose their immunity and become susceptible. | 0.0 |
-| 'initialSusceptible' | Initial susceptible population. | 0.0 |
-| 'initialInfected' | Initial infected population. | 0.0 |
-| 'initialRecovered' | Initial recovered population. | 0.0 |
-| 'outputFile' | Path to the simulation output file. | "output.csv" |
+| -d, --days | Number of days the simulation runs for. | 100 |
+| -i, --infectionRate | Rate at which susceptible become infected. | 0.0 |
+| -r, --recoveryRate | Rate at which infected people recover from the infection. | 0.0 |
+| -s, --resusceptibleRate | Rate at which recovered people lose their immunity and become susceptible. | 0.0 |
+| -S, --initialSusceptible | Initial susceptible population. | 0.0 |
+| -I, --initialInfected | Initial infected population. | 0.0 |
+| -R, --initialRecovered | Initial recovered population. | 0.0 |
+| -o, --outputFile | Path to the simulation output file. | "output.csv" |
 
 # Model Limitations
 - The model does not consider natural birth and death rates within the population.
